@@ -24,26 +24,27 @@
             </div>
         </div>
     </section> --}}
-    <section class="section-padding footer-mid" id="about-us">
+    <section class="section-padding footer-mid" id="about-us" style="direction: rtl; text-align: right;">
         <div class="container pt-15 pb-20">
             <div class="row">
                 <div class="col-lg-4 col-md-6">
                     <div class="widget-about font-md mb-md-5 mb-lg-0">
-                        <h5 class="mt-20 mb-10 fw-600 text-grey-4">تواصل معنا <i class="fas fa-comments"></i></h5>
+                        <h5 class="mt-20 mb-10 fw-600 text-grey-4"><i class="fas fa-comments"></i> تواصل معنا</h5>
                         <p>
-                            <strong>العنوان <i class="fas fa-map-marker-alt"></i>
-                                : 
-                            </strong>
+                            <i class="fas fa-map-marker-alt float-right"></i>
+                            <strong>العنوان: شارونة</strong>
+                            
+                        </p>
+                        <p>
+                            <i class="fas fa-phone float-right"></i>
+                            <strong>رقم الهاتف: </strong>+1 0000-000-000
+                        </p>
+                        <p>
+                            <i class="fas fa-envelope float-right"></i>
+                            <strong> البريد الألكتروني: test@gmail.com</strong>
+                        </p>
                         
-                        </p>
-                        <p>
-                            <strong>رقم الهاتف : </strong>+1 0000-000-000 
-                        
-                        </p>
-                        <p>
-                            <strong> البريد الألكتروني : </strong>-------- <i class="fas fa-envelope"></i>
-                        </p>
-                        <h5 class="mb-10 mt-30 fw-600 text-grey-4">تابعنا علي <i class="fas fa-share-alt"></i></h5>
+                        <h5 class="mb-10 mt-30 fw-600 text-grey-4"><i class="fas fa-share-alt"></i> تابعنا علي</h5>
                         <div class="mobile-social-icon">
                             <a href="#"><i class="fab fa-facebook-f"></i></a>
                             <a href="#"><i class="fab fa-twitter"></i></a>
@@ -54,22 +55,22 @@
                     </div>
                 </div>                    
                 <div class="col-lg-2 col-md-3">
-                    <h5 class="widget-title">حول<i class="fas fa-info-circle"></i></h5>
-                    <ul class="footer-list">
-                        <li><a href="#">حولنا <i class="fas fa-info-circle"></i></a></li>
-                        <li><a href="#">معلومات التوصيل <i class="fas fa-truck"></i></a></li>
-                        <li><a href="#">سياسة الخصوصية <i class="fas fa-shield-alt"></i></a></li>
-                        <li><a href="#">الشروط والأحكام <i class="fas fa-file-contract"></i></a></li>
-                        <li><a href="#">اتصل بنا <i class="fas fa-phone"></i></a></li>
+                    <h5 class="widget-title float-right"><i class="fas fa-info-circle"></i> حول</h5>
+                    <ul class="footer-list text-right">
+                        <li><a href="#"><i class="fas fa-info-circle"></i> حولنا</a></li>
+                        <li><a href="#"> <i class="fas fa-truck"></i> معلومات التوصيل</a></li>
+                        <li><a href="#"><i class="fas fa-shield-alt"></i> سياسة الخصوصية</a></li>
+                        <li><a href="#"> <i class="fas fa-file-contract"></i> الشروط والأحكام</a></li>
+                        <li><a href="#"> <i class="fas fa-phone"></i> اتصل بنا</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-2 col-md-3">
-                    <h5 class="widget-title">حسابي<i class="fas fa-user"></i></h5>
-                    <ul class="footer-list">
-                        <li><a href="my-account.html">حسابي <i class="fas fa-user"></i></a></li>
-                        <li><a href="#">عرض السلة <i class="fas fa-shopping-cart"></i></a></li>
-                        <li><a href="#">قائمة المفضلة <i class="fas fa-heart"></i></a></li>
-                        <li><a href="#">طلباتي <i class="fas fa-file-alt"></i></a></li>
+                    <h5 class="widget-title float-right"> <i class="fas fa-user"></i> حسابي</h5>
+                    <ul class="footer-list text-right">
+                        <li><a href="my-account.html"> <i class="fas fa-user"></i> حسابي</a></li>
+                        <li><a href="#"> <i class="fas fa-shopping-cart"></i> عرض السلة</a></li>
+                        <li><a href="#"> <i class="fas fa-heart"></i> قائمة المفضلة</a></li>
+                        <li><a href="#"> <i class="fas fa-shopping-bag"></i> طلباتي</a></li>
                     </ul>
                 </div>
             </div>
