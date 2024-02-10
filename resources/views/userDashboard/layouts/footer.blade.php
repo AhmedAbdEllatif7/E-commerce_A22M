@@ -25,69 +25,53 @@
         </div>
     </section> --}}
     <section class="section-padding footer-mid" id="about-us">
-        <div class="container pt-15 pb-20" style="direction: rtl; text-align: right;">
+        <div class="container pt-15 pb-20">
             <div class="row">
                 <div class="col-lg-4 col-md-6">
                     <div class="widget-about font-md mb-md-5 mb-lg-0">
-                        {{-- <div class="logo logo-width-1 wow fadeIn animated">
-                            <a href="index.html"><img src="assets/imgs/logo/logo.png" alt="logo"></a>
-                        </div> --}}
-                        <h5 class="mt-20 mb-10 fw-600 text-grey-4 wow fadeIn animated">تواصل معنا</h5>
-                        <p class="wow fadeIn animated">
-                            <strong>العنوان: </strong>------
+                        <h5 class="mt-20 mb-10 fw-600 text-grey-4">تواصل معنا <i class="fas fa-comments"></i></h5>
+                        <p>
+                            <strong>العنوان <i class="fas fa-map-marker-alt"></i>
+                                : 
+                            </strong>
+                        
                         </p>
-                        <p class="wow fadeIn animated">
-                            <strong>رقم الهاتف : </strong>+1 0000-000-000
+                        <p>
+                            <strong>رقم الهاتف : </strong>+1 0000-000-000 
+                        
                         </p>
-                        <p class="wow fadeIn animated">
-                            <strong> البريد الألكتروني : </strong>--------
+                        <p>
+                            <strong> البريد الألكتروني : </strong>-------- <i class="fas fa-envelope"></i>
                         </p>
-                        <h5 class="mb-10 mt-30 fw-600 text-grey-4 wow fadeIn animated">تابعنا علي</h5>
-                        <div class="mobile-social-icon wow fadeIn animated mb-sm-5 mb-md-0">
-                            <a href="#"><img src="assets/imgs/theme/icons/icon-facebook.svg" alt=""></a>
-                            <a href="#"><img src="assets/imgs/theme/icons/icon-twitter.svg" alt=""></a>
-                            <a href="#"><img src="assets/imgs/theme/icons/icon-instagram.svg" alt=""></a>
-                            <a href="#"><img src="assets/imgs/theme/icons/icon-pinterest.svg" alt=""></a>
-                            <a href="#"><img src="assets/imgs/theme/icons/icon-youtube.svg" alt=""></a>
+                        <h5 class="mb-10 mt-30 fw-600 text-grey-4">تابعنا علي <i class="fas fa-share-alt"></i></h5>
+                        <div class="mobile-social-icon">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-pinterest"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
                         </div>
                     </div>
+                </div>                    
+                <div class="col-lg-2 col-md-3">
+                    <h5 class="widget-title">حول<i class="fas fa-info-circle"></i></h5>
+                    <ul class="footer-list">
+                        <li><a href="#">حولنا <i class="fas fa-info-circle"></i></a></li>
+                        <li><a href="#">معلومات التوصيل <i class="fas fa-truck"></i></a></li>
+                        <li><a href="#">سياسة الخصوصية <i class="fas fa-shield-alt"></i></a></li>
+                        <li><a href="#">الشروط والأحكام <i class="fas fa-file-contract"></i></a></li>
+                        <li><a href="#">اتصل بنا <i class="fas fa-phone"></i></a></li>
+                    </ul>
                 </div>
                 <div class="col-lg-2 col-md-3">
-                    <h5 class="widget-title wow fadeIn animated">حول</h5>
-                    <ul class="footer-list wow fadeIn animated mb-sm-5 mb-md-0">
-                        <li><a href="#">حولنا</a></li>
-                        <li><a href="#">معلومات التوصيل</a></li>
-                        <li><a href="#">سياسة الخصوصية</a></li>
-                        <li><a href="#">الشروط والأحكام</a></li>
-                        <li><a href="#">اتصل بنا</a></li>
+                    <h5 class="widget-title">حسابي<i class="fas fa-user"></i></h5>
+                    <ul class="footer-list">
+                        <li><a href="my-account.html">حسابي <i class="fas fa-user"></i></a></li>
+                        <li><a href="#">عرض السلة <i class="fas fa-shopping-cart"></i></a></li>
+                        <li><a href="#">قائمة المفضلة <i class="fas fa-heart"></i></a></li>
+                        <li><a href="#">طلباتي <i class="fas fa-file-alt"></i></a></li>
                     </ul>
                 </div>
-                <div class="col-lg-2  col-md-3">
-                    <h5 class="widget-title wow fadeIn animated">حسابي</h5>
-                    <ul class="footer-list wow fadeIn animated">
-                        <li><a href="my-account.html">حسابي</a></li>
-                        <li><a href="#">عرض السلة</a></li>
-                        <li><a href="#">قائمة المفضلة</a></li>
-                        <li><a href="#">طلباتي</a></li>
-                    </ul>
-                </div>
-                
-                {{-- <div class="col-lg-4 mob-center">
-                    <h5 class="widget-title wow fadeIn animated">Install App</h5>
-                    <div class="row">
-                        <div class="col-md-8 col-lg-12">
-                            <p class="wow fadeIn animated">From App Store or Google Play</p>
-                            <div class="download-app wow fadeIn animated mob-app">
-                                <a href="#" class="hover-up mb-sm-4 mb-lg-0"><img class="active" src="assets/imgs/theme/app-store.jpg" alt=""></a>
-                                <a href="#" class="hover-up"><img src="assets/imgs/theme/google-play.jpg" alt=""></a>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-lg-12 mt-md-3 mt-lg-0">
-                            <p class="mb-20 wow fadeIn animated">Secured Payment Gateways</p>
-                            <img class="wow fadeIn animated" src="assets/imgs/theme/payment-method.png" alt="">
-                        </div>
-                    </div>
-                </div> --}}
             </div>
         </div>
     </section>
@@ -98,14 +82,15 @@
             </div>
             <div class="col-lg-6">
                 <p class="float-md-left font-sm text-muted mb-0">
-                    <a href="privacy-policy.html">Privacy Policy</a> | <a href="terms-conditions.html">Terms & Conditions</a>
+                    <a href="privacy-policy.html">Privacy Policy <i class="fas fa-lock"></i></a> | <a href="terms-conditions.html">Terms & Conditions <i class="fas fa-gavel"></i></a>
                 </p>
             </div>
             <div class="col-lg-6">
                 <p class="text-lg-end text-start font-sm text-muted mb-0">
-                    &copy; <strong class="text-brand"> Ahmed Maghraby & Ahmed Abd Ellatif </strong> كل الحقوق محفوظة لدي  
+                    &copy; <strong class="text-brand"> Ahmed Maghraby & Ahmed Abd Ellatif </strong> كل الحقوق محفوظة لدي  <i class="fas fa-copyright"></i>
                 </p>
             </div>
         </div>
     </div>
+    
 </footer> 
