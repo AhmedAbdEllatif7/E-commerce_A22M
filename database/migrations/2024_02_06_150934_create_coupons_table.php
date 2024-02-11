@@ -13,7 +13,7 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->string('value');
-            $table->string('status');
+            $table->boolean('status')->default(1);
             $table->timestamps();
         });
     }

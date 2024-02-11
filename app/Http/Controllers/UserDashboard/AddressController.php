@@ -6,23 +6,19 @@ use App\Http\Controllers\Controller;
 use App\Http\Requests\address\StoreAddressRequest;
 use App\Http\Requests\address\UpdateAddressRequest;
 use App\Models\Address;
-use Illuminate\Http\Request;
+use App\Repositories\Interfaces\UserDashboard\AddressInterface;
 
 class AddressController extends Controller
 {
 
     protected $address;
-    public function __construct(SliderInterface $address)
+    public function __construct(AddressInterface $address)
     {
         $this->address = $address;
     }
     public function create()
     {
         return $this->address->create();
-    }
-    public function index()
-    {
-        return $this->address->index();
     }
     public function store(StoreAddressRequest $request)
     {

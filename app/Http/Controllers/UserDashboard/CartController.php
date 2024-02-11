@@ -8,35 +8,40 @@ use App\Models\Cart;
 use App\Models\Product;
 use App\Repositories\Interfaces\UserDashboard\CartInterface;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class CartController extends Controller
 {
 
-    protected $cat;
-    public function __construct(CartInterface $cat)
+    protected $cart;
+    public function __construct(CartInterface $cart)
     {
-        $this->cat = $cat;
-        //$this->middleware('auth');
+        $this->cart = $cart;
+        $this->middleware('auth');
 
     }
 
     public function index()
     {
-        $this->cat->index();
+        return $this->cart->index();
     }
 
     public function store(CartStoreRequest $request ,Product $product)
     {
-        $this->cat->store($request->validated(),$product);
+       return $this->cart->store($request->validated(),$product);
     }
 
     public function update(CartStoreRequest $request,Cart $cart)
     {
-        $this->cat->update($request->validated(),$cart);
+        return $this->cart->update($request->validated(),$cart);
     }
 
     public function destroy(Cart $cart)
     {
-        $this->cat->destroy($cart);
+        return $this->cart->destroy($cart);
+    }
+    public function clear()
+    {
+        return  $this->cart->clear();
     }
 }

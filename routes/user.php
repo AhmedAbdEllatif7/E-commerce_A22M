@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\UserDashboard\SearchController;
 use App\Http\Controllers\UserDashboard\AddressController;
 use App\Http\Controllers\UserDashboard\CartController;
 use App\Http\Controllers\UserDashboard\ContactUsController;
@@ -32,16 +33,18 @@ Route::controller(FavController::class)->prefix('fav')->as('fav.')->group(functi
 Route::controller(CartController::class)->prefix('cart')->as('cart.')->group(function(){
     Route::get('/index',  'index')->name('index');
     Route::post('/store/{product}',  'store')->name('store');
-    Route::put('/update/{cart}',  'store')->name('update');
-    Route::get('/destroy/{cart}',  'destroy')->name('destroy');
+    Route::put('/update/{cart}',  'update')->name('update');
+    Route::delete('/destroy/{cart}',  'destroy')->name('destroy');
+    Route::get('/clear',  'clear')->name('clear');
 });
 
 Route::controller(OrderController::class)->prefix('order')->as('order.')->group(function(){
+    Route::get('/show/{order_number}',  'show')->name('show');
     Route::get('/index',  'index')->name('index');
-    Route::post('/store/{address}',  'store')->name('store');
     Route::get('/destroy/{order}',  'destroy')->name('destroy');
 });
-Route::post('/contactUs', [ContactUsController::class, 'store'])->name('contact.store');
+
+Route::post('/contact-us/store', [ContactUsController::class, 'store'])->name('contact.store');
 Route::get('/contact-us', [ContactUsController::class, 'index'])->name('contact.index');
 
 
@@ -55,3 +58,5 @@ Route::get('/pofile', [ProfileController::class, 'index'])->name('profile.index'
 
 
 Route::post('/profile/update', [ProfileController::class, 'update'])->name('profile.update');
+
+Route::get('/filter', [SearchController::class, 'filter'])->name('search.filter');

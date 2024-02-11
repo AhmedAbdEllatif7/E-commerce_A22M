@@ -23,5 +23,6 @@ class CountFav extends Component
             $countFav = Fav::where('user_id', Auth::user()->id)->count();
             return view('components.count-fav', compact('countFav'));
         }
+        return view('components.count-fav');
     }
 }
