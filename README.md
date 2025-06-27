@@ -1,6 +1,6 @@
 # Full-Stack E-Commerce Platform
 
-![Project Screenshot](https://via.placeholder.com/800x400?text=E-Commerce+Platform) <!-- Replace with actual screenshot -->
+<!-- Replace with actual screenshot -->
 
 A complete e-commerce solution built with Laravel and Livewire, featuring multi-variant products, secure checkout, and admin dashboard.
 
@@ -37,5 +37,3 @@ A complete e-commerce solution built with Laravel and Livewire, featuring multi-
 - Responsive design (mobile-first approach)
 - Interactive UI elements
 - Client-side validation
-
-## Project Structure
